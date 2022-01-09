@@ -1,0 +1,191 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*STYLE*/
+header {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  margin: 10px 15px 10px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 40px;
+}
+
+.slider {
+  padding: 10px 10px 0 10px;
+  background-color: skyblue;
+  margin-bottom: 10px;
+}
+
+.slider-img {
+  width: 100%;
+}
+
+.slider2 {
+  display: flex;
+  background-image: radial-gradient(circle at 90% -100%, white 1%, skyblue 90%);
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 150px;
+}
+
+.image {
+  padding: 20px 20px 0 25px;
+}
+
+.p-text {
+  columns: 4;
+  column-fill: auto;
+  column-rule: 1px solid black;
+  text-align: justify;
+  padding: 10px;
+}
